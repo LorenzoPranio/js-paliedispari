@@ -14,3 +14,15 @@ Consigli del giorno
 
 
 |SOLUZIONE|
+
+1.>Chiedo all'utente di inserire una parola con un prompt
+
+2.>Dichiaro una funzione con parametro "parola"
+
+3.>Aggiungo delle istruzioni che saranno:
+3.1.>Divido l'input in singole lettere mettendole in un array
+3.2.>Inverto l'ordine delle lettere
+3.3.>Unisco in una stringa le lettere per generare una nuova parola
+3.3.1.>IF la nuova parola è identica alla vecchia la mostro in console.log
+3.3.2.>ELSE Mostro in console "parola non polidroma"
+

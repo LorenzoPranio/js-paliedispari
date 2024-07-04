@@ -16,3 +16,17 @@ Consigli del giorno
 
 
 |SOLUZIONE|
+
+1.> Creo un promtp per chiedere all'utente "Pari o Dispari?"
+
+2.> Creo un prompt per chiedere un numero all'utente con il parsInt
+2.1.>IF il nuemro che hai scelto è pari e la somma è pari, e se il numero che hai scelto è dispari e la somma è dispari
+2.1.1.> Hai vinto
+2.2.> ELSE hai perso
+
+3.> Creo una variabile per il numero del pc
+3.1.> Creo una funzione per generare un numero da 1 a 5
+
+4.> Creo una funzione per comparare i numeri
+4.1.>Creo la variabile per sommare i numeri
+4.2.>IF la somma non è divisibile per 2, non è pari

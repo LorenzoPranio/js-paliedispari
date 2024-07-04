@@ -10,9 +10,16 @@ let parola_reverse
 function reverse_string(parola){
     parola_reverse = parola.split('').reverse().join('')
     //IF la nuova parola è identica alla vecchia la mostro in console.log
-    
+    if(parola === parola_reverse){
+        alert('La parola è polidroma')
+    }
     //ELSE Mostro in console "parola non polidroma"
+    else{
+        alert('La parola non è polidroma')
+    }
 }
+
+reverse_string(parola)
 
 
 

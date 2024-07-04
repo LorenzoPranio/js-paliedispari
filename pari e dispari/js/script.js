@@ -25,11 +25,21 @@ let numero_pc = numero_computer()
 //Creo una funzione per generare un numero da 1 a 5
 
 function numero_computer(){
-    return Math.floor(math.random() * 5 + 1)
+    return Math.floor(Math.random() * 5 + 1)
 }
 
 //Creo una funzione per comparare i numeri
 
-//Creo la variabile per sommare i numeri
+comparazione_numeri(numero_utente, numero_pc)
 
-//IF la somma non è divisibile per 2, non è pari
+function comparazione_numeri(numero_utente, numero_pc){
+    //Creo la variabile per sommare i numeri
+    let somma = numero_utente + numero_pc
+    //IF la somma non è divisibile per 2, non è pari
+    if (somma % 2 !== 0){
+        numero_pari = false
+    }
+}
+
+
+

@@ -8,7 +8,16 @@ let numero_utente = parseInt(prompt('Scegli un numero da 1 a 5!'))
 
 //IF il nuemro che hai scelto è pari e la somma è pari, e se il numero che hai scelto è dispari e la somma è dispari: Hai vinto!
 
+let numero_pari = true
+
+if ((pari_dispari === 'pari' && numero_pari == true) || (pari_dispari === 'dispari' && nuemro_pari == false)){
+    alert('Hai vinto!')
+}
 //ELSE: Hai perso!
+else{
+    alert('Hai perso!')
+}
+
 
 //Creo una variabile per il numero del pc
 

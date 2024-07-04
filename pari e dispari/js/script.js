@@ -18,10 +18,15 @@ else{
     alert('Hai perso!')
 }
 
-
 //Creo una variabile per il numero del pc
 
+let numero_pc = numero_computer()
+
 //Creo una funzione per generare un numero da 1 a 5
+
+function numero_computer(){
+    return Math.floor(math.random() * 5 + 1)
+}
 
 //Creo una funzione per comparare i numeri
 

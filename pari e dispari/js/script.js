@@ -1,6 +1,10 @@
 //Creo un promtp per chiedere all'utente "Pari o Dispari?"
 
+let pari_dispari = prompt('Pari o Dispari?')
+
 //Creo un prompt per chiedere un numero all'utente con il parsInt
+
+let numero_utente = parseInt(prompt('Scegli un numero da 1 a 5!'))
 
 //IF il nuemro che hai scelto è pari e la somma è pari, e se il numero che hai scelto è dispari e la somma è dispari: Hai vinto!
 

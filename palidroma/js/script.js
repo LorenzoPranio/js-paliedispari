@@ -25,7 +25,7 @@
 
 let parola = prompt('Inserisci una parola');
 
-let parola_reverse = ('')
+let parola_reverse = '';
 
 for (let i = parola.length - 1; i >= 0; i-- ){
     parola_reverse += parola[i];

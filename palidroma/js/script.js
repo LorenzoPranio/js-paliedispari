@@ -33,6 +33,13 @@ for (let i = parola.length - 1; i >= 0; i-- ){
 
 console.log(parola_reverse)
 
+// Verifico se la parola è palindroma
+if (parola === parola_reverse) {
+    alert('La parola è palindroma');
+} else {
+    alert('La parola non è palindroma');
+}
+
 
 
 

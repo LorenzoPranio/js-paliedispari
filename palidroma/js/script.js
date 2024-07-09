@@ -19,13 +19,16 @@
     }
 }*/
 //reverse_string(parola)
+
+
 //CON CICLO FOR
 
 let parola = prompt('Inserisci una parola');
 
 let parola_reverse = ('')
 
-for (let i = parola.length - 1; i == 0; i-- ){
+for (let i = parola.length - 1; i >= 0; i-- ){
+    parola_reverse += parola[i];
 }
 
 console.log(parola_reverse)
